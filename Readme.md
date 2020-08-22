@@ -1,0 +1,1 @@
+The solution i followed is these three steps : 1-Declare a private swingcalender constructor to prevent others from instantiating the class , 2-Create the instance of the class  on-demand in a static method that first checks whether the instance exists or not and creates a new one only if it doesn’t exist,3-Initialize a private static instance  
